@@ -1,0 +1,80 @@
+.Explore {
+  background-color: #FFFFFF;
+  height: 100vh;
+}
+
+.var-1 {
+  background-color: #FFFFFF;
+}
+
+.var-2 {
+  background-color: #F3EDE9;
+}
+
+.var-3 {
+  background-color: #D5D5D5;
+}
+
+.var-4 {
+  background-color: #e6e6e6;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.work-container {
+  display: flex;
+  min-height: 700px;
+}
+
+.image-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.work-title {
+  color: black;
+  transform: rotate(-90deg);
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.work-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.work-details-content {
+  height: 400px;
+  margin: 0 10% 0 10%;
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: slideDown;
+  animation-duration: 3s;
+}
+
+@media only screen and (max-width: 800px) {
+  .work-container {
+     flex-direction: column;
+  }
+  .image-wrapper {
+    flex-direction: column;
+  }
+  .work-title {
+    transform: rotate(0deg);
+  }
+  .work-details-content {
+    margin: 5%;
+  }
+}
+
+@keyframes slideDown {
+  from { height: 0px;}
+  to { top: 400px;}
+}

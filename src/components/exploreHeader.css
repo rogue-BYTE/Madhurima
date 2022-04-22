@@ -1,0 +1,40 @@
+.ExploreHeader {
+  height: 100px;
+  background-color: #F3EDE9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5% 0 5%;
+}
+
+.nav-item-container {
+  display: flex;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  min-width: 200px;
+  min-height: 30px;
+  border-top: 3px solid #8F7B6A;
+  margin-left: 5%;
+}
+
+.nav-name {
+  padding: 0 5% 0 5%;
+  font-family: 'Square Peg', cursive;
+  font-size: 50px;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 800px) {
+  .ExploreHeader {
+    height: 150px;
+    flex-direction: column;
+  }
+  .nav-item-container {
+    flex-direction: column;
+  }
+}
