@@ -1,5 +1,6 @@
 import React from 'react'
 import ExploreHeader from '../components/exploreHeader'
+import Footer from '../components/footer'
 import './about.css'
 
 function About() {
@@ -55,6 +56,7 @@ function About() {
           </a>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
