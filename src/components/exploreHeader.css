@@ -18,8 +18,17 @@
   font-size: 15px;
   min-width: 200px;
   min-height: 30px;
-  border-top: 3px solid #8F7B6A;
   margin-left: 5%;
+  border-top: 3px solid #F3EDE9;
+  transition: border-top 0.3s;
+}
+
+.nav-item:hover {
+  border-top: 3px solid black;
+}
+
+.nav-item-active {
+  border-top: 3px solid #8F7B6A;
 }
 
 .nav-name {
