@@ -4,7 +4,7 @@ import './footer.css'
 function Footer() {
   return (
     <div className='footer'>
-      Copyright Madhurima Ekka | All Rights Reserved | Designed by Vedant Anand
+      Copyright Madhurima Ekka | All Rights Reserved
     </div>
   )
 }
