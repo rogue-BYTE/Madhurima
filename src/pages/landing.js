@@ -15,7 +15,7 @@ function Landing() {
         </div>
         <div className='landing-details'>
           <div>Creative Stylist</div>
-          <div>Brand Management</div>
+          <div>Fashion Management</div>
         </div>
         <div className='landing-controls'>
           <Link
