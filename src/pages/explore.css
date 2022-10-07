@@ -3,78 +3,155 @@
   height: 100vh;
 }
 
-.var-1 {
-  background-color: #FFFFFF;
+.has-margin-right {
+  margin-right: 50px;
 }
 
-.var-2 {
-  background-color: #F3EDE9;
-}
-
-.var-3 {
-  background-color: #D5D5D5;
-}
-
-.var-4 {
-  background-color: #e6e6e6;
-}
-
-.shadow {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.work-container {
+.gallery-menu {
   display: flex;
-  min-height: 700px;
-}
-
-.image-wrapper {
-  display: flex;
+  position: sticky;
+  top: 0px;
+  z-index: 200;
+  justify-content: center;
   align-items: center;
+  height: 50px;
+  padding: 0 5% 0 5%;
+  background-color: #e4d7ce;
 }
 
-.work-title {
+.menu-icon {
+  display: none;
+}
+
+.gallery-menu-item {
+  cursor: pointer;
+  border-bottom: 2px solid #e4d7ce;
+  transition: border-bottom 0.3s;
+  color: rgb(56, 56, 56);
+}
+
+.gallery-menu-item-active {
   color: black;
-  transform: rotate(-90deg);
-  font-size: 20px;
-  white-space: nowrap;
+  border-bottom: 2px solid black;
 }
 
-.work-details {
+.gallery-menu-item:hover {
+  border-bottom: 2px solid rgb(197, 197, 197);;
+}
+
+.gallery-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
 }
 
-.work-details-content {
-  height: 400px;
-  margin: 0 10% 0 10%;
-  width: 100%;
-  padding: 5%;
+.row {
+  display: -ms-flexbox; /* IE10 */
   display: flex;
   justify-content: center;
-  align-items: center;
-  animation-name: slideDown;
-  animation-duration: 3s;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  max-width: 1145px;
+  min-width: 1145px;
+  /* margin: 0.1% 10.3% 1% 10.3%; */
 }
 
-@media only screen and (max-width: 800px) {
-  .work-container {
-     flex-direction: column;
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 20%; /* IE10 */
+  flex: 10%;
+  max-width: 20%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.column video {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.gallery-image {
+  width: 220px
+}
+@media screen and (max-width: 420px) {
+  .row {
+    max-width: 375px;
+    min-width: 375px;
+    /* margin: 1% 0 1% 0; */
   }
-  .image-wrapper {
-    flex-direction: column;
+  .gallery-image {
+    width: 350px;
   }
-  .work-title {
-    transform: rotate(0deg);
+  .menu-icon {
+    display: block;
+    float: right;
   }
-  .work-details-content {
-    margin: 5%;
+  .gallery-menu-dropdown {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    padding: 15px;
+    background-color: #e4d7ce;
+  }
+  .gallery-menu {
+    justify-content: space-between;
+  }
+  .gallery-menu-item {
+    display: none;
+  }
+  .gallery-menu-item-active {
+    display: block;
+  }
+}
+@media screen and (min-width: 421px) and (max-width: 1000px) {
+  .gallery-image {
+    width: 200px;
+  }
+  .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 31%;
+  }
+  .row {
+    max-width: 650px;
+    min-width: 650px;
+    /* margin: 0.1% 10.3% 1% 10.3%; */
   }
 }
 
-@keyframes slideDown {
-  from { height: 0px;}
-  to { top: 400px;}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.row {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
 }
