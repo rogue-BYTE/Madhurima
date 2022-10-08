@@ -14,25 +14,25 @@ function Explore() {
 
   const covers_1 = [
     {
-      src: 'cover1_1.png',
+      src: 'cover1_1.jpg',
       type: 'img'
     },
     {
-      src: 'cover1_2.png',
+      src: 'cover1_2.jpg',
       type: 'img'
     },
     {
-      src: 'cover1_3.png',
+      src: 'cover1_3.jpg',
       type: 'img'
     },
   ]
   const covers_2 = [
     {
-      src: 'cover2_1.png',
+      src: 'cover2_1.jpg',
       type: 'img'
     },
     {
-      src: 'cover2_2.png',
+      src: 'cover2_2.jpg',
       type: 'img'
     },
     {
@@ -46,150 +46,150 @@ function Explore() {
       type: 'vid'
     },
     {
-      src: 'cover3_2.png',
+      src: 'cover3_2.jpg',
       type: 'img'
     },
     {
-      src: 'cover3_3.png',
+      src: 'cover3_3.jpg',
       type: 'img'
     },
   ]
   const covers_4 = [
     {
-      src: 'cover4_1.png',
+      src: 'cover4_1.jpg',
       type: 'img'
     },
     {
-      src: 'cover4_2.png',
+      src: 'cover4_2.jpg',
       type: 'img'
     },
     {
-      src: 'cover4_3.png',
+      src: 'cover4_3.jpg',
       type: 'img'
     },
   ]
   const covers_5 = [
     {
-      src: 'cover5_1.png',
+      src: 'cover5_1.mp4',
+      type: 'vid'
+    },
+    {
+      src: 'cover5_2.jpg',
       type: 'img'
     },
     {
-      src: 'cover5_2.png',
-      type: 'img'
-    },
-    {
-      src: 'cover5_3.png',
+      src: 'cover5_3.jpg',
       type: 'img'
     },
   ]
 
   const editorials_1 = [
     {
-      src: 'edi1_1.png',
+      src: 'edi1_1.jpg',
       type: 'img'
     },
     {
-      src: 'edi1_2.png',
+      src: 'edi1_2.jpg',
       type: 'img'
     },
     {
-      src: 'edi1_3.png',
+      src: 'edi1_3.jpg',
       type: 'img'
     },
     {
-      src: 'edi1_4.png',
+      src: 'edi1_4.jpg',
       type: 'img'
     },
     {
-      src: 'edi1_5.png',
+      src: 'edi1_5.jpg',
       type: 'img'
     },
   ]
   const editorials_2 = [
     {
-      src: 'edi2_1.png',
+      src: 'edi2_1.jpg',
       type: 'img'
     },
     {
-      src: 'edi2_2.png',
+      src: 'edi2_2.jpg',
       type: 'img'
     },
     {
-      src: 'edi2_3.png',
+      src: 'edi2_3.jpg',
       type: 'img'
     },
     {
-      src: 'edi2_4.png',
+      src: 'edi2_4.jpg',
       type: 'img'
     },
     {
-      src: 'edi2_5.png',
+      src: 'edi2_5.jpg',
       type: 'img'
     },
   ]
   const editorials_3 = [
     {
-      src: 'edi3_1.png',
+      src: 'edi3_1.jpg',
       type: 'img'
     },
     {
-      src: 'edi3_2.png',
+      src: 'edi3_2.jpg',
       type: 'img'
     },
     {
-      src: 'edi3_3.png',
+      src: 'edi3_3.jpg',
       type: 'img'
     },
     {
-      src: 'edi3_4.png',
+      src: 'edi3_4.jpg',
       type: 'img'
     },
     {
-      src: 'edi3_5.png',
+      src: 'edi3_5.jpg',
       type: 'img'
     },
   ]
   const editorials_4 = [
     {
-      src: 'edi4_1.png',
+      src: 'edi4_1.jpg',
       type: 'img'
     },
     {
-      src: 'edi4_2.png',
+      src: 'edi4_2.jpg',
       type: 'img'
     },
     {
-      src: 'edi4_3.png',
+      src: 'edi4_3.jpg',
       type: 'img'
     },
     {
-      src: 'edi4_4.png',
+      src: 'edi4_4.jpg',
       type: 'img'
     },
     {
-      src: 'edi4_5.png',
+      src: 'edi4_5.jpg',
       type: 'img'
     },
   ]
   const editorials_5 = [
     {
-      src: 'edi5_1.png',
+      src: 'edi5_1.jpg',
       type: 'img'
     },
     {
-      src: 'edi5_2.png',
+      src: 'edi5_2.jpg',
       type: 'img'
     },
     {
-      src: 'edi5_3.png',
+      src: 'edi5_3.jpg',
       type: 'img'
     },
     {
-      src: 'edi5_4.png',
+      src: 'edi5_4.jpg',
       type: 'img'
     },
     {
-      src: 'edi5_5.png',
+      src: 'edi5_5.jpg',
       type: 'img'
     },
   ]
