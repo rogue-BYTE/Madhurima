@@ -193,6 +193,36 @@ function Explore() {
       type: 'img'
     },
   ]
+  const campaigns_1 = [
+    {
+      src: 'cam1_1.jpg',
+      type: 'img'
+    }
+  ]
+  const campaigns_2 = [
+    {
+      src: 'cam2_1.mp4',
+      type: 'vid'
+    }
+  ]
+  const campaigns_3 = [
+    {
+      src: 'cam3_1.jpg',
+      type: 'img'
+    }
+  ]
+  const campaigns_4 = [
+    {
+      src: 'cam4_1.jpg',
+      type: 'img'
+    }
+  ]
+  const campaigns_5 = [
+    {
+      src: 'cam5_1.mp4',
+      type: 'vid'
+    }
+  ]
   return (
     <div className='Explore'>
       <ExploreHeader />
@@ -403,6 +433,105 @@ function Explore() {
           </div>
           <div class="column">
             {editorials_5.map(obj => {
+              if (obj.type === 'img') {
+                return (
+                  <LazyLoadImage
+                  class="gallery-image"
+                  src={`${process.env.PUBLIC_URL}${obj.src}`}
+                  alt=''
+                  effect="blur"
+                />)
+              } else {
+                return (
+                  <video class="gallery-image" autoPlay loop muted>
+                    <source src={obj.src} type="video/mp4" />
+                  </video>
+                )
+              }
+            })}
+          </div>
+        </div>
+      }
+      {tab === 'CAMPAIGNS' &&
+        <div class="row">
+          <div class="column">
+            {campaigns_1.map(obj => {
+              if (obj.type === 'img') {
+                return (
+                  <LazyLoadImage
+                  class="gallery-image"
+                  src={`${process.env.PUBLIC_URL}${obj.src}`}
+                  alt=''
+                  effect="blur"
+                />)
+              } else {
+                return (
+                  <video class="gallery-image" autoPlay loop muted>
+                    <source src={obj.src} type="video/mp4" />
+                  </video>
+                )
+              }
+            })}
+          </div>
+          <div class="column">
+            {campaigns_2.map(obj => {
+              if (obj.type === 'img') {
+                return (
+                  <LazyLoadImage
+                  class="gallery-image"
+                  src={`${process.env.PUBLIC_URL}${obj.src}`}
+                  alt=''
+                  effect="blur"
+                />)
+              } else {
+                return (
+                  <video class="gallery-image"  autoPlay loop muted>
+                    <source src={obj.src} type="video/mp4" />
+                  </video>
+                )
+              }
+            })}
+          </div>
+          <div class="column">
+            {campaigns_3.map(obj => {
+              if (obj.type === 'img') {
+                return (
+                  <LazyLoadImage
+                  class="gallery-image"
+                  src={`${process.env.PUBLIC_URL}${obj.src}`}
+                  alt=''
+                  effect="blur"
+                />)
+              } else {
+                return (
+                  <video class="gallery-image" autoPlay loop muted>
+                    <source src={obj.src} type="video/mp4" />
+                  </video>
+                )
+              }
+            })}
+          </div>
+          <div class="column">
+            {campaigns_4.map(obj => {
+              if (obj.type === 'img') {
+                return (
+                  <LazyLoadImage
+                  class="gallery-image"
+                  src={`${process.env.PUBLIC_URL}${obj.src}`}
+                  alt=''
+                  effect="blur"
+                />)
+              } else {
+                return (
+                  <video class="gallery-image" autoPlay loop muted>
+                    <source src={obj.src} type="video/mp4" />
+                  </video>
+                )
+              }
+            })}
+          </div>
+          <div class="column">
+            {campaigns_5.map(obj => {
               if (obj.type === 'img') {
                 return (
                   <LazyLoadImage
