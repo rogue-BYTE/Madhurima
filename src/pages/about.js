@@ -49,7 +49,10 @@ function About() {
         </div>
         <div className='right-section'>
           <div className='about-me shadow'>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            <h3>Who I am</h3>
+            Hello There! Welcome to my portfolio. I’m a freelance Creative Stylist hailing from Central India. I got my Bachelors Degree in Commerce from Delhi University and I also hold a Masters in Fashion Management from NIFT Mumbai. I focus on curating unique styles with an eye for commercial fashion and detail in personal and editorial styling with a proven track record of co-organizing photo shoots and styling models.
+            <br />
+            <p>Forever a mountain person who is also passionate about Baking and in love with Kawaii Culture.</p>
           </div>
         </div>
       </div>
