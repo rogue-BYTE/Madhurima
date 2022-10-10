@@ -197,17 +197,37 @@ function Explore() {
     {
       src: 'cam1_1.jpg',
       type: 'img'
-    }
+    },
+    {
+      src: 'cam1_2.mp4',
+      type: 'vid'
+    },
+    {
+      src: 'cam1_3.jpg',
+      type: 'img'
+    },
   ]
   const campaigns_2 = [
     {
       src: 'cam2_1.mp4',
       type: 'vid'
+    },
+    {
+      src: 'cam2_2.jpg',
+      type: 'img'
     }
   ]
   const campaigns_3 = [
     {
       src: 'cam3_1.jpg',
+      type: 'img'
+    },
+    {
+      src: 'cam3_2.jpg',
+      type: 'img'
+    },
+    {
+      src: 'cam3_3.jpg',
       type: 'img'
     }
   ]
@@ -215,12 +235,74 @@ function Explore() {
     {
       src: 'cam4_1.jpg',
       type: 'img'
+    },
+    {
+      src: 'cam4_2.mp4',
+      type: 'vid'
     }
   ]
   const campaigns_5 = [
     {
       src: 'cam5_1.mp4',
       type: 'vid'
+    },
+    {
+      src: 'cam5_2.jpg',
+      type: 'img'
+    },
+    {
+      src: 'cam5_3.jpg',
+      type: 'img'
+    },
+  ]
+  const catalogues_1 = [
+    {
+      src: 'cat1_1.jpg',
+      type: 'img'
+    },
+    {
+      src: 'cat1_2.jpg',
+      type: 'img'
+    }
+  ];
+  const catalogues_2 = [
+    {
+      src: 'cat2_1.jpg',
+      type: 'img'
+    },
+    {
+      src: 'cat2_2.mp4',
+      type: 'vid'
+    },
+  ];
+  const catalogues_3 = [
+    {
+      src: 'cat3_1.jpg',
+      type: 'img'
+    },
+    {
+      src: 'cat3_2.jpg',
+      type: 'img'
+    }
+  ];
+  const catalogues_4 = [
+    {
+      src: 'cat4_1.jpg',
+      type: 'img'
+    },
+    {
+      src: 'cat4_2.jpg',
+      type: 'img'
+    }
+  ];
+  const catalogues_5 = [
+    {
+      src: 'cat5_1.jpg',
+      type: 'img'
+    },
+    {
+      src: 'cat5_2.jpg',
+      type: 'img'
     }
   ]
   return (
@@ -532,6 +614,105 @@ function Explore() {
           </div>
           <div class="column">
             {campaigns_5.map(obj => {
+              if (obj.type === 'img') {
+                return (
+                  <LazyLoadImage
+                  class="gallery-image"
+                  src={`${process.env.PUBLIC_URL}${obj.src}`}
+                  alt=''
+                  effect="blur"
+                />)
+              } else {
+                return (
+                  <video class="gallery-image" autoPlay loop muted>
+                    <source src={obj.src} type="video/mp4" />
+                  </video>
+                )
+              }
+            })}
+          </div>
+        </div>
+      }
+{tab === 'CATALOGUE' &&
+        <div class="row">
+          <div class="column">
+            {catalogues_1.map(obj => {
+              if (obj.type === 'img') {
+                return (
+                  <LazyLoadImage
+                  class="gallery-image"
+                  src={`${process.env.PUBLIC_URL}${obj.src}`}
+                  alt=''
+                  effect="blur"
+                />)
+              } else {
+                return (
+                  <video class="gallery-image" autoPlay loop muted>
+                    <source src={obj.src} type="video/mp4" />
+                  </video>
+                )
+              }
+            })}
+          </div>
+          <div class="column">
+            {catalogues_2.map(obj => {
+              if (obj.type === 'img') {
+                return (
+                  <LazyLoadImage
+                  class="gallery-image"
+                  src={`${process.env.PUBLIC_URL}${obj.src}`}
+                  alt=''
+                  effect="blur"
+                />)
+              } else {
+                return (
+                  <video class="gallery-image"  autoPlay loop muted>
+                    <source src={obj.src} type="video/mp4" />
+                  </video>
+                )
+              }
+            })}
+          </div>
+          <div class="column">
+            {catalogues_3.map(obj => {
+              if (obj.type === 'img') {
+                return (
+                  <LazyLoadImage
+                  class="gallery-image"
+                  src={`${process.env.PUBLIC_URL}${obj.src}`}
+                  alt=''
+                  effect="blur"
+                />)
+              } else {
+                return (
+                  <video class="gallery-image" autoPlay loop muted>
+                    <source src={obj.src} type="video/mp4" />
+                  </video>
+                )
+              }
+            })}
+          </div>
+          <div class="column">
+            {catalogues_4.map(obj => {
+              if (obj.type === 'img') {
+                return (
+                  <LazyLoadImage
+                  class="gallery-image"
+                  src={`${process.env.PUBLIC_URL}${obj.src}`}
+                  alt=''
+                  effect="blur"
+                />)
+              } else {
+                return (
+                  <video class="gallery-image" autoPlay loop muted>
+                    <source src={obj.src} type="video/mp4" />
+                  </video>
+                )
+              }
+            })}
+          </div>
+          <div class="column">
+            {catalogues_5.map(obj => {
               if (obj.type === 'img') {
                 return (
                   <LazyLoadImage
