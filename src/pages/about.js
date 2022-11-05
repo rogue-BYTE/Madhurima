@@ -38,7 +38,7 @@ function About() {
             </a>
             <a href='https://www.linkedin.com/in/madhurima-ekka-a8696521a/'>
               <img
-                src={`${process.env.PUBLIC_URL + '/linkedIn.png'}`}
+                src={`${process.env.PUBLIC_URL + '/linkedin.png'}`}
                 alt=''
                 style={{opacity: '0.5'}}
                 height='60px'
