@@ -74,10 +74,51 @@
   margin-top: 8px;
   vertical-align: middle;
 }
-
-.gallery-image {
-  width: 220px
+.media-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
+
+.media {
+  opacity: 1;
+  display: block;
+  width: 220px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.overlay {
+  width: 220px;
+  height: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: black;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15% 10% 15% 10%;
+  box-sizing: border-box;
+}
+
+.media-container:hover .media {
+  opacity: 0.3;
+}
+
+.media-container:hover .overlay {
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 420px) {
   .row {
     max-width: 375px;
@@ -85,6 +126,9 @@
     /* margin: 1% 0 1% 0; */
   }
   .media {
+    width: 350px;
+  }
+  .overlay {
     width: 350px;
   }
   .menu-icon {
@@ -110,6 +154,9 @@
 }
 @media screen and (min-width: 421px) and (max-width: 1000px) {
   .media {
+    width: 200px;
+  }
+  .overlay {
     width: 200px;
   }
   .column {
@@ -155,50 +202,4 @@
   100% {
       opacity: 1;
    }
-}
-
-.media-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.media {
-  opacity: 1;
-  display: block;
-  width: 220px;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.overlay {
-  width: 100%;
-  height: 100%;
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  background-color: black;
-  color: white;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 15% 10% 15% 10%;
-  box-sizing: border-box;
-}
-
-.media-container:hover .media {
-  opacity: 0.3;
-}
-
-.media-container:hover .overlay {
-  opacity: 0.8;
 }
