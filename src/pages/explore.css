@@ -84,7 +84,7 @@
     min-width: 375px;
     /* margin: 1% 0 1% 0; */
   }
-  .gallery-image {
+  .media {
     width: 350px;
   }
   .menu-icon {
@@ -109,7 +109,7 @@
   }
 }
 @media screen and (min-width: 421px) and (max-width: 1000px) {
-  .gallery-image {
+  .media {
     width: 200px;
   }
   .column {
