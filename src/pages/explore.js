@@ -402,7 +402,7 @@ function Explore() {
                 </div>)
               } else {
                 return (
-                  <video className='media' autoPlay loop muted>
+                  <video width="220px" autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
@@ -432,7 +432,7 @@ function Explore() {
                   </div>)
               } else {
                 return (
-                  <video classname='media'  autoPlay loop muted>
+                  <video width="220px"  autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
@@ -462,7 +462,7 @@ function Explore() {
                   </div>)
               } else {
                 return (
-                  <video classname='media' autoPlay loop muted>
+                  <video width="220px" autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
@@ -492,7 +492,7 @@ function Explore() {
                   </div>)
               } else {
                 return (
-                  <video classname='media' autoPlay loop muted>
+                  <video width="220px" autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
@@ -522,7 +522,7 @@ function Explore() {
                   </div>)
               } else {
                 return (
-                  <video classname='media' autoPlay loop muted>
+                  <video width="220px" autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
@@ -556,7 +556,7 @@ function Explore() {
                   </div>)
               } else {
                 return (
-                  <video classname='media' autoPlay loop muted>
+                  <video width="220px" autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
@@ -586,7 +586,7 @@ function Explore() {
                   </div>)
               } else {
                 return (
-                  <video classname='media'  autoPlay loop muted>
+                  <video width="220px"  autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
@@ -616,7 +616,7 @@ function Explore() {
                   </div>)
               } else {
                 return (
-                  <video classname='media' autoPlay loop muted>
+                  <video width="220px" autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
@@ -646,7 +646,7 @@ function Explore() {
                   </div>)
               } else {
                 return (
-                  <video classname='media' autoPlay loop muted>
+                  <video width="220px" autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
@@ -676,7 +676,7 @@ function Explore() {
                   </div>)
               } else {
                 return (
-                  <video classname='media' autoPlay loop muted>
+                  <video width="220px" autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
@@ -710,7 +710,7 @@ function Explore() {
                   </div>)
               } else {
                 return (
-                  <video classname='media' autoPlay loop muted>
+                  <video width="220px" autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
@@ -740,7 +740,7 @@ function Explore() {
                   </div>)
               } else {
                 return (
-                  <video classname='media'  autoPlay loop muted>
+                  <video width="220px"  autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
@@ -770,7 +770,7 @@ function Explore() {
                   </div>)
               } else {
                 return (
-                  <video classname='media' autoPlay loop muted>
+                  <video width="220px" autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
@@ -800,7 +800,7 @@ function Explore() {
                   </div>)
               } else {
                 return (
-                  <video classname='media' autoPlay loop muted>
+                  <video width="220px" autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
@@ -830,7 +830,7 @@ function Explore() {
                   </div>)
               } else {
                 return (
-                  <video classname='media' autoPlay loop muted>
+                  <video width="220px" autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
@@ -864,7 +864,7 @@ function Explore() {
                   </div>)
               } else {
                 return (
-                  <video classname='media' autoPlay loop muted>
+                  <video width="220px" autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
@@ -894,7 +894,7 @@ function Explore() {
                   </div>)
               } else {
                 return (
-                  <video classname='media'  autoPlay loop muted>
+                  <video width="220px"  autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
@@ -924,7 +924,7 @@ function Explore() {
                   </div>)
               } else {
                 return (
-                  <video classname='media' autoPlay loop muted>
+                  <video width="220px" autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
@@ -954,7 +954,7 @@ function Explore() {
                   </div>)
               } else {
                 return (
-                  <video classname='media' autoPlay loop muted>
+                  <video width="220px" autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
@@ -984,7 +984,7 @@ function Explore() {
                   </div>)
               } else {
                 return (
-                  <video classname='media' autoPlay loop muted>
+                  <video width="220px" autoPlay loop muted>
                     <source src={obj.src} type="video/mp4" />
                   </video>
                 )
