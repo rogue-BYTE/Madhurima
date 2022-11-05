@@ -3,6 +3,7 @@ import ExploreHeader from '../components/exploreHeader'
 import Footer from '../components/footer'
 import './about.css'
 
+
 function About() {
   return (
     <div class='About'>
@@ -18,7 +19,7 @@ function About() {
           />
           <h1 style={{ color: 'grey' }}>Get in touch !</h1>
           <div className='contact-container'>
-            <a href='mailto:madhurimaekka1@gmail.com'>
+            <a href='mailto:madhurimaekka1@gmail.com' target="_blank" rel="noopener noreferrer">
               <img
                 src={`${process.env.PUBLIC_URL + '/gmail.png'}`}
                 alt=''
@@ -27,7 +28,7 @@ function About() {
                 width='60px'
               />
             </a>
-            <a href='https://www.instagram.com/madhurima_ekka/'>
+            <a href='https://www.instagram.com/madhurima_ekka/' target="_blank" rel="noopener noreferrer">
               <img
                 src={`${process.env.PUBLIC_URL + '/instagram.png'}`}
                 alt=''
@@ -36,9 +37,9 @@ function About() {
                 width='60px'
               />
             </a>
-            <a href='https://www.linkedin.com/in/madhurima-ekka-a8696521a/'>
+            <a href='https://www.linkedin.com/in/madhurima-ekka-a8696521a/' target="_blank" rel="noopener noreferrer">
               <img
-                src={`${process.env.PUBLIC_URL + '/linkedin.png'}`}
+                src={`${process.env.PUBLIC_URL + '/linkedIn.png'}`}
                 alt=''
                 style={{opacity: '0.5'}}
                 height='60px'
