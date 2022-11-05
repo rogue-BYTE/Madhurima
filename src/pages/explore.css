@@ -162,6 +162,9 @@
   .overlay {
     width: 200px;
   }
+  .column video {
+    width: 200px;
+  }
   .column {
     -ms-flex: 25%;
     flex: 25%;
