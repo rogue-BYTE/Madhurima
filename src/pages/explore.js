@@ -16,25 +16,49 @@ function Explore() {
     {
       src: 'cover1_1.jpg',
       type: 'img',
-      desc: 'DLF Promenade Blogazine Editorial',
+      desc: 'DLF Promenade Blogazine Cover',
       credits: 'Curated style as a Junior Stylist'
     },
     {
       src: 'cover1_2.jpg',
       type: 'img',
-      desc: 'DLF Promenade Blogazine Cover',
+      desc: 'DLF Promenade Blogazine Editorial',
       credits: 'Curated style as a Junior Stylist'
+    },
+    {
+      src: 'cover1_3.jpg',
+      type: 'img',
+      desc: 'DLF Mall Trends Cover',
+      credits: 'Assisted Styling'
     },
   ]
   const covers_2 = [
     {
       src: 'cover2_1.jpg',
       type: 'img',
-      desc: 'DLF Promenade Blogazine Cover',
+      desc: 'DLF Mall Trends Cover',
+      credits: 'Assisted Styling'
+    },
+    {
+      src: 'cover2_2.mp4',
+      type: 'vid',
+      desc: 'DLF Promenade Blogazine Editorial',
       credits: 'Curated style as a Junior Stylist'
     },
     {
-      src: 'cover2_2.jpg',
+      src: 'cover2_3.jpg',
+      type: 'img',
+      desc: 'DLF Promenade Blogazine Editorial',
+      credits: 'Curated style as a Junior Stylist'
+    },
+    {
+      src: 'cover2_4.jpg',
+      type: 'img',
+      desc: 'DLF Mall Trends Cover',
+      credits: 'Assisted Styling'
+    },
+    {
+      src: 'cover2_5.jpg',
       type: 'img',
       desc: 'DLF Promenade Blogazine Editorial',
       credits: 'Curated style as a Junior Stylist'
@@ -48,8 +72,8 @@ function Explore() {
     {
       src: 'cover3_2.jpg',
       type: 'img',
-      desc: 'DLF Promenade Blogazine Editorial',
-      credits: 'Curated style as a Junior Stylist'
+      desc: 'DLF Mall Trends Cover',
+      credits: 'Assisted Styling'
     },
     {
       src: 'cover3_3.jpg',
@@ -57,13 +81,19 @@ function Explore() {
       desc: 'DLF Promenade Blogazine Editorial',
       credits: 'Curated style as a Junior Stylist'
     },
+    {
+      src: 'cover3_4.jpg',
+      type: 'img',
+      desc: 'DLF Mall Trends Cover',
+      credits: 'Assisted Styling'
+    },
   ]
   const covers_4 = [
     {
       src: 'cover4_1.jpg',
       type: 'img',
-      desc: 'DLF Promenade Blogazine Cover',
-      credits: 'Curated style as a Junior Stylist'
+      desc: 'DLF Mall Trends Cover',
+      credits: 'Assisted Styling'
     },
     {
       src: 'cover4_2.jpg',
@@ -71,14 +101,26 @@ function Explore() {
       desc: 'DLF Promenade Blogazine Editorial',
       credits: 'Curated style as a Junior Stylist'
     },
+    {
+      src: 'cover4_3.jpg',
+      type: 'img',
+      desc: 'DLF Promenade Blogazine Cover',
+      credits: 'Curated style as a Junior Stylist'
+    },
   ]
   const covers_5 = [
     {
-      src: 'cover5_1.mp4',
+      src: 'cover5_1.jpg',
+      type: 'img',
+      desc: 'DLF Promenade Blogazine Cover',
+      credits: 'Curated style as a Junior Stylist'
+    },
+    {
+      src: 'cover5_2.mp4',
       type: 'vid'
     },
     {
-      src: 'cover5_2.jpg',
+      src: 'cover5_3.jpg',
       type: 'img',
       desc: 'DLF Promenade Blogazine Editorial',
       credits: 'Curated style as a Junior Stylist'
