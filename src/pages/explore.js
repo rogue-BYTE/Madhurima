@@ -275,14 +275,26 @@ function Explore() {
       desc: 'Jewellery Launch',
       credits: 'Assisted Styling'
     },
+    {
+      src: 'cam1_4.jpg',
+      type: 'img',
+      desc: "DLF Mall of India AW'22",
+      credits: 'Assistant Stylist'
+    },
   ]
   const campaigns_2 = [
     {
-      src: 'cam2_1.mp4',
+      src: 'cam2_1.jpg',
+      type: 'img',
+      desc: "DLF Mall of India AW'22",
+      credits: 'Assistant Stylist'
+    },
+    {
+      src: 'cam2_2.mp4',
       type: 'vid'
     },
     {
-      src: 'cam2_2.jpg',
+      src: 'cam2_3.jpg',
       type: 'img',
       desc: 'DLF Promenade SS 2021',
       credits: 'Junior Stylist'
@@ -306,7 +318,13 @@ function Explore() {
       type: 'img',
       desc: 'DLF Mall of India Wedding Season',
       credits: 'Junior Stylist'
-    }
+    },
+    {
+      src: 'cam3_4.jpg',
+      type: 'img',
+      desc: "DLF Mall of India AW'22",
+      credits: 'Assistant Stylist'
+    },
   ]
   const campaigns_4 = [
     {
@@ -318,7 +336,13 @@ function Explore() {
     {
       src: 'cam4_2.mp4',
       type: 'vid'
-    }
+    },
+    {
+      src: 'cam4_3.jpg',
+      type: 'img',
+      desc: "DLF Mall of India AW'22",
+      credits: 'Assistant Stylist'
+    },
   ]
   const campaigns_5 = [
     {
@@ -328,11 +352,17 @@ function Explore() {
     {
       src: 'cam5_2.jpg',
       type: 'img',
+      desc: "DLF Mall of India AW'22",
+      credits: 'Assistant Stylist'
+    },
+    {
+      src: 'cam5_3.jpg',
+      type: 'img',
       desc: 'DLF Mall of India Wedding Season',
       credits: 'Junior Stylist'
     },
     {
-      src: 'cam5_3.jpg',
+      src: 'cam5_4.jpg',
       type: 'img',
       desc: 'DLF Promenade SS 2021',
       credits: 'Junior Stylist'
