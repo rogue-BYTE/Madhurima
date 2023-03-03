@@ -17,6 +17,7 @@
   height: 50px;
   padding: 0 5% 0 5%;
   background-color: #e4d7ce;
+  border-bottom: 1px solid black;
 }
 
 .menu-icon {
@@ -43,6 +44,7 @@
   display: flex;
   justify-content: center;
   min-height: 100%;
+  margin-bottom: 8px;
 }
 
 .row {
