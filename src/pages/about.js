@@ -9,7 +9,51 @@ function About() {
     <div class='About'>
       <ExploreHeader />
       <div className='about-container'>
-        <div className='left-section'>
+        <img
+          src={`${process.env.PUBLIC_URL + '/profile.JPEG'}`}
+          alt=''
+          style={{borderRadius: '50%'}}
+          height='250px'
+          width='250px'
+        />
+        <div className='about-info'>
+          <div className='about-info-header'>Hi, I am Madhurima Ekka. Nice to meet you!</div>
+          <div className='about-info-content'>I’m a freelance Creative Stylist hailing from Central India. I got my Bachelors Degree in Commerce from Delhi University and I also hold a Masters in Fashion Management from NIFT Mumbai. I focus on curating unique styles with an eye for commercial fashion and detail in personal and editorial styling with a proven track record of co-organizing photo shoots and styling models.</div>
+          <div className='about-info-content'>Forever a mountain person who is also passionate about Baking and in love with Kawaii Culture.</div>
+          <div className='contact-container'>
+            <div class="contact-text">Get in Touch</div>
+            <div className="contact-icons">
+              <a href='mailto:madhurimaekka1@gmail.com' target="_blank" rel="noopener noreferrer">
+                <img
+                  src={`${process.env.PUBLIC_URL + '/gmail.png'}`}
+                  alt=''
+                  style={{opacity: '0.5'}}
+                  height='50px'
+                  width='50px'
+                />
+              </a>
+              <a href='https://www.instagram.com/madhurima_ekka/' target="_blank" rel="noopener noreferrer">
+                <img
+                  src={`${process.env.PUBLIC_URL + '/instagram.png'}`}
+                  alt=''
+                  style={{opacity: '0.5'}}
+                  height='50px'
+                  width='50px'
+                />
+              </a>
+              <a href='https://www.linkedin.com/in/madhurima-ekka-a8696521a/' target="_blank" rel="noopener noreferrer">
+                <img
+                  src={`${process.env.PUBLIC_URL + '/linkedin.png'}`}
+                  alt=''
+                  style={{opacity: '0.5'}}
+                  height='50px'
+                  width='50px'
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* <div className='left-section'>
           <img
             src={`${process.env.PUBLIC_URL + '/profile.JPEG'}`}
             alt=''
@@ -24,8 +68,8 @@ function About() {
                 src={`${process.env.PUBLIC_URL + '/gmail.png'}`}
                 alt=''
                 style={{opacity: '0.5'}}
-                height='60px'
-                width='60px'
+                height='50px'
+                width='50px'
               />
             </a>
             <a href='https://www.instagram.com/madhurima_ekka/' target="_blank" rel="noopener noreferrer">
@@ -33,8 +77,8 @@ function About() {
                 src={`${process.env.PUBLIC_URL + '/instagram.png'}`}
                 alt=''
                 style={{opacity: '0.5'}}
-                height='60px'
-                width='60px'
+                height='50px'
+                width='50px'
               />
             </a>
             <a href='https://www.linkedin.com/in/madhurima-ekka-a8696521a/' target="_blank" rel="noopener noreferrer">
@@ -42,8 +86,8 @@ function About() {
                 src={`${process.env.PUBLIC_URL + '/linkedin.png'}`}
                 alt=''
                 style={{opacity: '0.5'}}
-                height='60px'
-                width='60px'
+                height='50px'
+                width='50px'
               />
             </a>
           </div>
@@ -55,8 +99,8 @@ function About() {
             <br />
             <p>Forever a mountain person who is also passionate about Baking and in love with Kawaii Culture.</p>
           </div>
-        </div>
-      </div>
+        </div> */}
+      </div> 
       <Footer />
     </div>
   )
