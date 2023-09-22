@@ -259,11 +259,16 @@ function Explore() {
   ]
   const campaigns_1 = [
     {
+      src: 'cam1_5.jpg',
+      type: 'img',
+      desc: 'Revoir Skincare',
+      credits: 'Direction and Head Stylist'
+    },
+    {
       src: 'cam1_1.jpg',
       type: 'img',
       desc: 'DLF Promenade SS 2021',
       credits: 'Junior Stylist'
-      
     },
     {
       src: 'cam1_2.mp4',
@@ -288,6 +293,12 @@ function Explore() {
       type: 'img',
       desc: "DLF Mall of India AW'22",
       credits: 'Assistant Stylist'
+    },
+    {
+      src: 'cam2_5.jpg',
+      type: 'img',
+      desc: 'Revoir Skincare',
+      credits: 'Direction and Head Stylist'
     },
     {
       src: 'cam2_2.mp4',
@@ -328,6 +339,18 @@ function Explore() {
   ]
   const campaigns_4 = [
     {
+      src: 'cam4_3.jpg',
+      type: 'img',
+      desc: 'Revoir Skincare',
+      credits: 'Direction and Head Stylist'
+    },
+    {
+      src: 'cam4_4.jpg',
+      type: 'img',
+      desc: 'Revoir Skincare',
+      credits: 'Direction and Head Stylist'
+    },
+    {
       src: 'cam4_1.jpg',
       type: 'img',
       desc: 'DLF Promenade SS 2021',
@@ -336,12 +359,6 @@ function Explore() {
     {
       src: 'cam4_2.mp4',
       type: 'vid'
-    },
-    {
-      src: 'cam4_3.jpg',
-      type: 'img',
-      desc: "DLF Mall of India AW'22",
-      credits: 'Assistant Stylist'
     },
   ]
   const campaigns_5 = [
