@@ -17,19 +17,16 @@ function Explore() {
       src: 'cover1_1.jpg',
       type: 'img',
       desc: 'DLF Promenade Blogazine Cover',
-      credits: 'Curated style as a Junior Stylist'
     },
     {
       src: 'cover1_2.jpg',
       type: 'img',
       desc: 'DLF Promenade Blogazine Editorial',
-      credits: 'Curated style as a Junior Stylist'
     },
     {
       src: 'cover1_3.jpg',
       type: 'img',
       desc: 'DLF Mall Trends Cover',
-      credits: 'Assisted Styling'
     },
   ]
   const covers_2 = [
@@ -37,31 +34,26 @@ function Explore() {
       src: 'cover2_1.jpg',
       type: 'img',
       desc: 'DLF Mall Trends Cover',
-      credits: 'Assisted Styling'
     },
     {
       src: 'cover2_2.mp4',
       type: 'vid',
       desc: 'DLF Promenade Blogazine Editorial',
-      credits: 'Curated style as a Junior Stylist'
     },
     {
       src: 'cover2_3.jpg',
       type: 'img',
       desc: 'DLF Promenade Blogazine Editorial',
-      credits: 'Curated style as a Junior Stylist'
     },
     {
       src: 'cover2_4.jpg',
       type: 'img',
       desc: 'DLF Mall Trends Cover',
-      credits: 'Assisted Styling'
     },
     {
       src: 'cover2_5.jpg',
       type: 'img',
       desc: 'DLF Promenade Blogazine Editorial',
-      credits: 'Curated style as a Junior Stylist'
     },
   ]
   const covers_3 = [
@@ -73,19 +65,16 @@ function Explore() {
       src: 'cover3_2.jpg',
       type: 'img',
       desc: 'DLF Mall Trends Cover',
-      credits: 'Assisted Styling'
     },
     {
       src: 'cover3_3.jpg',
       type: 'img',
       desc: 'DLF Promenade Blogazine Editorial',
-      credits: 'Curated style as a Junior Stylist'
     },
     {
       src: 'cover3_4.jpg',
       type: 'img',
       desc: 'DLF Mall Trends Cover',
-      credits: 'Assisted Styling'
     },
   ]
   const covers_4 = [
@@ -93,19 +82,16 @@ function Explore() {
       src: 'cover4_1.jpg',
       type: 'img',
       desc: 'DLF Mall Trends Cover',
-      credits: 'Assisted Styling'
     },
     {
       src: 'cover4_2.jpg',
       type: 'img',
       desc: 'DLF Promenade Blogazine Editorial',
-      credits: 'Curated style as a Junior Stylist'
     },
     {
       src: 'cover4_3.jpg',
       type: 'img',
       desc: 'DLF Promenade Blogazine Cover',
-      credits: 'Curated style as a Junior Stylist'
     },
   ]
   const covers_5 = [
@@ -113,7 +99,6 @@ function Explore() {
       src: 'cover5_1.jpg',
       type: 'img',
       desc: 'DLF Promenade Blogazine Cover',
-      credits: 'Curated style as a Junior Stylist'
     },
     {
       src: 'cover5_2.mp4',
@@ -123,7 +108,6 @@ function Explore() {
       src: 'cover5_3.jpg',
       type: 'img',
       desc: 'DLF Promenade Blogazine Editorial',
-      credits: 'Curated style as a Junior Stylist'
     },
   ]
 
@@ -132,25 +116,21 @@ function Explore() {
       src: 'edi1_1.jpg',
       type: 'img',
       desc: 'The Man Magazine Editorial',
-      credits: 'Assisted Styling'
     },
     {
       src: 'edi1_2.jpg',
       type: 'img',
       desc: 'Candy Magazine Editorial',
-      credits: 'Assisted Styling'
     },
     {
       src: 'edi1_3.jpg',
       type: 'img',
       desc: 'DLF Promenade Blogazine Editorial',
-      credits: 'Curated style as a Junior Stylist'
     },
     {
       src: 'edi1_4.jpg',
       type: 'img',
       desc: 'DLF Promenade Blogazine Editorial',
-      credits: 'Curated style as a Junior Stylist'
     },
   ]
   const editorials_2 = [
@@ -158,25 +138,21 @@ function Explore() {
       src: 'edi2_1.jpg',
       type: 'img',
       desc: 'Editorial for International Magazine',
-      credits: 'Assisted Styling'
     },
     {
       src: 'edi2_2.jpg',
       type: 'img',
       desc: 'The Man Magazine Editorial',
-      credits: 'Assisted Styling'
     },
     {
       src: 'edi2_3.jpg',
       type: 'img',
       desc: 'The Man Magazine Editorial',
-      credits: 'Assisted Styling'
     },
     {
       src: 'edi2_4.jpg',
       type: 'img',
       desc: 'Editorial for International Magazine',
-      credits: 'Assisted Styling'
     },
   ]
   const editorials_3 = [
@@ -184,25 +160,21 @@ function Explore() {
       src: 'edi3_1.jpg',
       type: 'img',
       desc: 'VIBGYOR Theory Editorial for The Man Magazine',
-      credits: 'Assisted Styling'
     },
     {
       src: 'edi3_2.jpg',
       type: 'img',
       desc: 'VIBGYOR Theory Editorial for The Man Magazine',
-      credits: 'Assisted Styling'
     },
     {
       src: 'edi3_3.jpg',
       type: 'img',
       desc: 'Candy Magazine Editorial',
-      credits: 'Assisted Styling'
     },
     {
       src: 'edi3_4.jpg',
       type: 'img',
       desc: 'Candy Magazine Editorial',
-      credits: 'Assisted Styling'
     },
   ]
   const editorials_4 = [
@@ -210,25 +182,21 @@ function Explore() {
       src: 'edi4_1.jpg',
       type: 'img',
       desc: 'DLF Promenade Blogazine Editorial',
-      credits: 'Junior Stylist'
     },
     {
       src: 'edi4_2.jpg',
       type: 'img',
       desc: 'DLF Promenade Blogazine Editorial',
-      credits: 'Junior Stylist'
     },
     {
       src: 'edi4_3.jpg',
       type: 'img',
       desc: 'VIBGYOR Theory Editorial for The Man Magazine',
-      credits: 'Assisted Styling'
     },
     {
       src: 'edi4_4.jpg',
       type: 'img',
       desc: 'DLF Promenade Blogazine Editorial',
-      credits: 'Junior Stylist'
     },
   ]
   const editorials_5 = [
@@ -236,25 +204,21 @@ function Explore() {
       src: 'edi5_1.jpg',
       type: 'img',
       desc: 'Pump Magazine Editorial',
-      credits: 'Assistant to Abhishek Arora'
     },
     {
       src: 'edi5_2.jpg',
       type: 'img',
       desc: 'The Man Magazine Editorial',
-      credits: 'Assisted Styling'
     },
     {
       src: 'edi5_3.jpg',
       type: 'img',
       desc: 'Pump Magazine Editorial',
-      credits: 'Assistant to Abhishek Arora'
     },
     {
       src: 'edi5_4.jpg',
       type: 'img',
       desc: 'The Man Magazine Editorial',
-      credits: 'Assisted Styling'
     },
   ]
   const campaigns_1 = [
@@ -262,13 +226,11 @@ function Explore() {
       src: 'cam1_5.jpg',
       type: 'img',
       desc: 'Revoir Skincare',
-      credits: 'Direction and Head Stylist'
     },
     {
       src: 'cam1_1.jpg',
       type: 'img',
       desc: 'DLF Promenade SS 2021',
-      credits: 'Junior Stylist'
     },
     {
       src: 'cam1_2.mp4',
@@ -278,13 +240,11 @@ function Explore() {
       src: 'cam1_3.jpg',
       type: 'img',
       desc: 'Jewellery Launch',
-      credits: 'Assisted Styling'
     },
     {
       src: 'cam1_4.jpg',
       type: 'img',
       desc: "DLF Mall of India AW'22",
-      credits: 'Assistant Stylist'
     },
   ]
   const campaigns_2 = [
@@ -292,13 +252,11 @@ function Explore() {
       src: 'cam2_1.jpg',
       type: 'img',
       desc: "DLF Mall of India AW'22",
-      credits: 'Assistant Stylist'
     },
     {
       src: 'cam2_5.jpg',
       type: 'img',
       desc: 'Revoir Skincare',
-      credits: 'Direction and Head Stylist'
     },
     {
       src: 'cam2_2.mp4',
@@ -308,7 +266,6 @@ function Explore() {
       src: 'cam2_3.jpg',
       type: 'img',
       desc: 'DLF Promenade SS 2021',
-      credits: 'Junior Stylist'
     }
   ]
   const campaigns_3 = [
@@ -316,25 +273,21 @@ function Explore() {
       src: 'cam3_1.jpg',
       type: 'img',
       desc: 'Fine & Finery Jewellers',
-      credits: 'Assisted Styling'
     },
     {
       src: 'cam3_2.jpg',
       type: 'img',
       desc: 'DLF Promenade SS 2021',
-      credits: 'Junior Stylist'
     },
     {
       src: 'cam3_3.jpg',
       type: 'img',
       desc: 'DLF Mall of India Wedding Season',
-      credits: 'Junior Stylist'
     },
     {
       src: 'cam3_4.jpg',
       type: 'img',
       desc: "DLF Mall of India AW'22",
-      credits: 'Assistant Stylist'
     },
   ]
   const campaigns_4 = [
@@ -342,19 +295,16 @@ function Explore() {
       src: 'cam4_3.jpg',
       type: 'img',
       desc: 'Revoir Skincare',
-      credits: 'Direction and Head Stylist'
     },
     {
       src: 'cam4_4.jpg',
       type: 'img',
       desc: 'Revoir Skincare',
-      credits: 'Direction and Head Stylist'
     },
     {
       src: 'cam4_1.jpg',
       type: 'img',
       desc: 'DLF Promenade SS 2021',
-      credits: 'Junior Stylist'
     },
     {
       src: 'cam4_2.mp4',
@@ -370,19 +320,16 @@ function Explore() {
       src: 'cam5_2.jpg',
       type: 'img',
       desc: "DLF Mall of India AW'22",
-      credits: 'Assistant Stylist'
     },
     {
       src: 'cam5_3.jpg',
       type: 'img',
       desc: 'DLF Mall of India Wedding Season',
-      credits: 'Junior Stylist'
     },
     {
       src: 'cam5_4.jpg',
       type: 'img',
       desc: 'DLF Promenade SS 2021',
-      credits: 'Junior Stylist'
     },
   ]
   const catalogues_1 = [
@@ -401,8 +348,8 @@ function Explore() {
       type: 'img'
     },
     {
-      src: 'cat2_2.mp4',
-      type: 'vid'
+      src: 'cat2_2.jpg',
+      type: 'img'
     },
   ];
   const catalogues_3 = [
@@ -484,9 +431,6 @@ function Explore() {
                     <div style={{marginBottom: '10px', fontSize: '12px'}}>
                       <b>{ obj.desc }</b>
                     </div>
-                    <div style={{fontSize: '10px'}}>
-                      { obj.credits }
-                    </div>
                   </div>
                 </div>)
               } else {
@@ -513,9 +457,6 @@ function Explore() {
                     <div className='overlay'>
                       <div style={{marginBottom: '10px', fontSize: '12px'}}>
                         <b>{ obj.desc }</b>
-                      </div>
-                      <div style={{fontSize: '10px'}}>
-                        { obj.credits }
                       </div>
                     </div>
                   </div>)
@@ -544,9 +485,6 @@ function Explore() {
                       <div style={{marginBottom: '10px', fontSize: '12px'}}>
                         <b>{ obj.desc }</b>
                       </div>
-                      <div style={{fontSize: '10px'}}>
-                        { obj.credits }
-                      </div>
                     </div>
                   </div>)
               } else {
@@ -574,9 +512,6 @@ function Explore() {
                       <div style={{marginBottom: '10px', fontSize: '12px'}}>
                         <b>{ obj.desc }</b>
                       </div>
-                      <div style={{fontSize: '10px'}}>
-                        { obj.credits }
-                      </div>
                     </div>
                   </div>)
               } else {
@@ -603,9 +538,6 @@ function Explore() {
                     <div className='overlay'>
                       <div style={{marginBottom: '10px', fontSize: '12px'}}>
                         <b>{ obj.desc }</b>
-                      </div>
-                      <div style={{fontSize: '10px'}}>
-                        { obj.credits }
                       </div>
                     </div>
                   </div>)
@@ -638,9 +570,6 @@ function Explore() {
                       <div style={{marginBottom: '10px', fontSize: '12px'}}>
                         <b>{ obj.desc }</b>
                       </div>
-                      <div style={{fontSize: '10px'}}>
-                        { obj.credits }
-                      </div>
                     </div>
                   </div>)
               } else {
@@ -667,9 +596,6 @@ function Explore() {
                     <div className='overlay'>
                       <div style={{marginBottom: '10px', fontSize: '12px'}}>
                         <b>{ obj.desc }</b>
-                      </div>
-                      <div style={{fontSize: '10px'}}>
-                        { obj.credits }
                       </div>
                     </div>
                   </div>)
@@ -698,9 +624,6 @@ function Explore() {
                       <div style={{marginBottom: '10px', fontSize: '12px'}}>
                         <b>{ obj.desc }</b>
                       </div>
-                      <div style={{fontSize: '10px'}}>
-                        { obj.credits }
-                      </div>
                     </div>
                   </div>)
               } else {
@@ -728,9 +651,6 @@ function Explore() {
                       <div style={{marginBottom: '10px', fontSize: '12px'}}>
                         <b>{ obj.desc }</b>
                       </div>
-                      <div style={{fontSize: '10px'}}>
-                        { obj.credits }
-                      </div>
                     </div>
                   </div>)
               } else {
@@ -757,9 +677,6 @@ function Explore() {
                     <div className='overlay'>
                       <div style={{marginBottom: '10px', fontSize: '12px'}}>
                         <b>{ obj.desc }</b>
-                      </div>
-                      <div style={{fontSize: '10px'}}>
-                        { obj.credits }
                       </div>
                     </div>
                   </div>)
@@ -792,9 +709,6 @@ function Explore() {
                       <div style={{marginBottom: '10px', fontSize: '12px'}}>
                         <b>{ obj.desc }</b>
                       </div>
-                      <div style={{fontSize: '10px'}}>
-                        { obj.credits }
-                      </div>
                     </div>
                   </div>)
               } else {
@@ -821,9 +735,6 @@ function Explore() {
                     <div className='overlay'>
                       <div style={{marginBottom: '10px', fontSize: '12px'}}>
                         <b>{ obj.desc }</b>
-                      </div>
-                      <div style={{fontSize: '10px'}}>
-                        { obj.credits }
                       </div>
                     </div>
                   </div>)
@@ -852,9 +763,6 @@ function Explore() {
                       <div style={{marginBottom: '10px', fontSize: '12px'}}>
                         <b>{ obj.desc }</b>
                       </div>
-                      <div style={{fontSize: '10px'}}>
-                        { obj.credits }
-                      </div>
                     </div>
                   </div>)
               } else {
@@ -882,9 +790,6 @@ function Explore() {
                       <div style={{marginBottom: '10px', fontSize: '12px'}}>
                         <b>{ obj.desc }</b>
                       </div>
-                      <div style={{fontSize: '10px'}}>
-                        { obj.credits }
-                      </div>
                     </div>
                   </div>)
               } else {
@@ -911,9 +816,6 @@ function Explore() {
                     <div className='overlay'>
                       <div style={{marginBottom: '10px', fontSize: '12px'}}>
                         <b>{ obj.desc }</b>
-                      </div>
-                      <div style={{fontSize: '10px'}}>
-                        { obj.credits }
                       </div>
                     </div>
                   </div>)
@@ -946,9 +848,6 @@ function Explore() {
                       <div style={{marginBottom: '10px', fontSize: '12px'}}>
                         <b>{ obj.desc }</b>
                       </div>
-                      <div style={{fontSize: '10px'}}>
-                        { obj.credits }
-                      </div>
                     </div>
                   </div>)
               } else {
@@ -975,9 +874,6 @@ function Explore() {
                     <div className='overlay'>
                       <div style={{marginBottom: '10px', fontSize: '12px'}}>
                         <b>{ obj.desc }</b>
-                      </div>
-                      <div style={{fontSize: '10px'}}>
-                        { obj.credits }
                       </div>
                     </div>
                   </div>)
@@ -1006,9 +902,6 @@ function Explore() {
                       <div style={{marginBottom: '10px', fontSize: '12px'}}>
                         <b>{ obj.desc }</b>
                       </div>
-                      <div style={{fontSize: '10px'}}>
-                        { obj.credits }
-                      </div>
                     </div>
                   </div>)
               } else {
@@ -1036,9 +929,6 @@ function Explore() {
                       <div style={{marginBottom: '10px', fontSize: '12px'}}>
                         <b>{ obj.desc }</b>
                       </div>
-                      <div style={{fontSize: '10px'}}>
-                        { obj.credits }
-                      </div>
                     </div>
                   </div>)
               } else {
@@ -1065,9 +955,6 @@ function Explore() {
                     <div className='overlay'>
                       <div style={{marginBottom: '10px', fontSize: '12px'}}>
                         <b>{ obj.desc }</b>
-                      </div>
-                      <div style={{fontSize: '10px'}}>
-                        { obj.credits }
                       </div>
                     </div>
                   </div>)
